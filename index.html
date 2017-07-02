@@ -2,40 +2,60 @@
 <html>
 
 <head>
-    <title>Pavan's Static Site</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="resources/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Sarala" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>-->
+
+    <title>Pavan's Static Site</title>
 </head>
+
 <body>
-    <header>
-        <h1>Pavan Kemparaju</h1>
-        <img src="images/banner.jpg">
-        <nav>
-        </nav>
-    </header>
-    <main id="homepage">
-        <h2>Who Am I?</h2>
-        <img class="profile" src="images/profile.jpg" alt="profile picture">
-        <p>
-            Grad student at the University of Wisconsin-Madison
-            <span id="imageSubtext">My favourite pic of myself! </span>
-        </p>
-        <p> Reader. Coder. Writer. Stress Taker. </p>
-        <h2>More...</h2>
-        <p>I just started this site! Really!
-           For now it is just a lump of HTML and CSS I wrote (no site generators or anything!) </p>
-        <p>I will collect links to my blog, my profiles and my work here. And hopefully you will see my body of work increase!</p>
-        <span id="imageSubtext">and yes, the banner is a panoramic shot of a lavatory</span>
-        <h2>Reach out to me</h2>
-        <p>Mail me at <a class="contact" href="mailto:pavankm@outlook.com"> pavankm@outlook.com</a></p>
-        <p>Tweet to me <a class="contact" href="https://twitter.com/_pavank">@_pavank</a></p>
-        <p>Check out my <a class="contact" href="https://github.com/pavankm">Github</a> </p>
-        <p>See my resume <a class="contact" href="https://www.linkedin.com/in/pavan-kemparaju-a87b7534">LinkedIn</a> </p>
-        <p>I write here <a class="contact" href="https://ddsos.wordpress.com">My Blog</a> </p>
-    </main>
-    <footer>
-        <p style="color: gray; font-style: italic">&copy;2016 Pavan. Don't steal.</p>
-    </footer>
+
+<header>
+    <img class="profile" src="images/profile.jpg" alt="profile picture">
+    <nav>
+        <ul class="nav nav-stacked">
+            <li role="presentation" class="active"><a href="#">home</a></li>
+            <li role="presentation"><a href="#">profile</a></li>
+            <li role="presentation"><a href="#">messages</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="homepage">
+    <h2>Who Am I?</h2>
+    <p>
+        Grad student at the University of Wisconsin-Madison
+    </p>
+    <p> Reader. Coder. Writer. Stress Taker. </p>
+    <h2>More...</h2>
+    <p>I just started this site! Really!
+        For now it is just a lump of HTML and CSS I wrote (no site generators or anything!) </p>
+    <p>I will collect links to my blog, my profiles and my work here. And hopefully you will see my body of work increase!</p>
+    <span class="imageSubtext">and yes, the banner is a panoramic shot of a lavatory</span>
+    <h2>Reach out to me</h2>
+    <p>Mail me at <a class="contact" href="mailto:pavankm@outlook.com"> pavankm@outlook.com</a></p>
+    <p>Tweet to me <a class="contact" href="https://twitter.com/_pavank">@_pavank</a></p>
+    <p>Check out my <a class="contact" href="https://github.com/pavankm">Github</a></p>
+    <p>See my resume <a class="contact" href="https://www.linkedin.com/in/pavan-kemparaju-a87b7534">LinkedIn</a></p>
+    <p>I write here <a class="contact" href="https://ddsos.wordpress.com">My Blog</a></p>
+</main>
+<footer>
+    <p style="color: gray; font-style: italic">&copy;2016 Pavan. Don't steal.</p>
+</footer>
+
+
 </body>
 
 </html>
