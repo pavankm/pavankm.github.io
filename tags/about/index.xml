@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Pavan Kemparaju</title>
+    <link>/tags/about/</link>
+    <description>Recent content in About on Pavan Kemparaju</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Mar 2018 15:15:06 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to my site!</title>
+      <link>/home/</link>
+      <pubDate>Sun, 25 Mar 2018 15:15:06 -0500</pubDate>
+      
+      <guid>/home/</guid>
+      <description>Welcome to my site!
+Check out the sections on this site:
+ About: More about me Work/Projects: Things I am working on Today I Learnt: Something I discovered..everyday Blog: Ramblings about tech, geeky stuff and random things I find interesting Categories: Articles on this site grouped by category  </description>
+    </item>
+    
+  </channel>
+</rss>
