@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Pavan Kemparaju</title>
-    <link>/blog/</link>
-    <description>Recent content in Blog on Pavan Kemparaju</description>
+    <title>Go on Pavan Kemparaju</title>
+    <link>/tags/go/</link>
+    <description>Recent content in Go on Pavan Kemparaju</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Mar 2018 15:19:08 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +17,7 @@
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/gohugo/</guid>
-      <description>This site was built using the Hugo static site generator. https://gohugo.io/ and the Future Imperfect theme
+      <description>This site was built using the Hugo static site generator. https://gohugo.io/
 I found the Giraffe Academy Youtube tutorial about hugo very helpful in understanding how hugo works. Link for the interested: Giraffe Academy Hugo - Static Site Generator | Tutorial
 The site is hosted on my github repo pavankm/pavankm.github.io
 I purchased the domain name from Namecheap using the github student pack.</description>
