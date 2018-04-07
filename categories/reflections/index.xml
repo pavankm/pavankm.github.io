@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pavan Kemparaju</title>
-    <link>/</link>
-    <description>Recent content on Pavan Kemparaju</description>
+    <title>REFLECTIONS on Pavan Kemparaju</title>
+    <link>/categories/reflections/</link>
+    <description>Recent content in REFLECTIONS on Pavan Kemparaju</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Apr 2018 22:58:00 -0500</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/reflections/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,18 +20,6 @@
       <description>Why create a blog at all and why write about random things? Things people may not care about or find &amp;lsquo;useful&amp;rsquo;.
 George Orwell said that there are 4 reasons to write:
  Sheer egoism- The desire to seem clever, to be talked about, to be remembered after death, to get your own back on grown-ups who snubbed you in childhood, etc. Aesthetic enthusiasm- The desire to create something beautiful. Having &amp;ldquo;pleasure in the impact of one sound on another, in the firmness of good prose or the rhythm of a good story.</description>
-    </item>
-    
-    <item>
-      <title>Go (Hu)go</title>
-      <link>/blog/gohugo/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/gohugo/</guid>
-      <description>This site was built using the Hugo static site generator. https://gohugo.io/ and the Future Imperfect theme
-I found the Giraffe Academy Youtube tutorial about hugo very helpful in understanding how hugo works. Link for the interested: Giraffe Academy Hugo - Static Site Generator | Tutorial
-The site is hosted on my github repo pavankm/pavankm.github.io
-I purchased the domain name from Namecheap using the github student pack.</description>
     </item>
     
   </channel>
