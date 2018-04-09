@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TECH on Pavan Kemparaju</title>
-    <link>/categories/tech/</link>
-    <description>Recent content in TECH on Pavan Kemparaju</description>
+    <title>HACKATHON on Pavan Kemparaju</title>
+    <link>/categories/hackathon/</link>
+    <description>Recent content in HACKATHON on Pavan Kemparaju</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Apr 2018 20:33:28 -0500</lastBuildDate>
     
-	<atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/hackathon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,18 +20,6 @@
       <description>I was at UW-Madison&amp;rsquo;s Madhacks Mini today. This was a 12 hour, beginner-friendly mini-hackathon to give new hackers a glimpse into what hackathons are like.
 So why hack? What are the chances that I will wake up at 8 AM on a Saturday, wolf down whatever breakfast I can get my hands on and get down to brainstorming, coding and trying out new things? Practically nothing.
 Stashed across Keep and One Note and Wunderlist are ideas of things I wanted to build, ideas that seem really cool but are relegated to being looked at longingly every other week - &amp;ldquo;If only I had time&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Go (Hu)go</title>
-      <link>/blog/gohugo/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/gohugo/</guid>
-      <description>This site was built using the Hugo static site generator. https://gohugo.io/ and the Future Imperfect theme
-I found the Giraffe Academy Youtube tutorial about hugo very helpful in understanding how hugo works. Link for the interested: Giraffe Academy Hugo - Static Site Generator | Tutorial
-The site is hosted on my github repo pavankm/pavankm.github.io
-I purchased the domain name from Namecheap using the github student pack.</description>
     </item>
     
   </channel>
