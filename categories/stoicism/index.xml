@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STOICISM on Pavan Kemparaju</title>
+    <link>/categories/stoicism/</link>
+    <description>Recent content in STOICISM on Pavan Kemparaju</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Apr 2018 00:12:52 -0500</lastBuildDate>
+    
+	<atom:link href="/categories/stoicism/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stoicism</title>
+      <link>/blog/stoic/</link>
+      <pubDate>Thu, 19 Apr 2018 00:12:52 -0500</pubDate>
+      
+      <guid>/blog/stoic/</guid>
+      <description>Post 1 in my series of reflections on Stoicism
+ Today I had the opportunity to listen to Ryan Holiday, author of The Daily Stoic, Ego Is The Enemy and more, talk about stoicism and its applicability to leadership.
+I have been fascinated with Stoicism since I read Shakespeare&amp;rsquo;s Julius Caesar back in 10th grade. The way it was explained to us - Stoics are people who refuse to feel emotion; whether it is bad news or good, they react to it the same way.</description>
+    </item>
+    
+  </channel>
+</rss>
