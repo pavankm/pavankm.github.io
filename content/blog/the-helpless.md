@@ -1,5 +1,5 @@
 +++
-categories = ["REFLECTIONS"]
+categories = ["REFLECTION"]
 date = "2018-05-28T18:15:04-05:00"
 description = "A difficult topic"
 featured = ""
