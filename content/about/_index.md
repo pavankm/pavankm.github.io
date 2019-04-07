@@ -6,7 +6,6 @@ draft: false
 Checkout my [LinkedIn Profile](https://www.linkedin.com/in/pavan-kemparaju/) or
 Download my resume [here](https://docs.google.com/document/d/1wRyP-rPrye1DdbCO_TL5OelHN4nZjD1VgyKN7PNjLMs/export?format=pdf)
 
-
 ## Work Experience
 
 ### Intern Software Analyst and Developer

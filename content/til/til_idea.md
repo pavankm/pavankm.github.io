@@ -1,7 +1,7 @@
 +++
 title= "TIL: Today I learnt"
 date= "2018-03-25T22:20:02-05:00"
-draft= true
+draft= false
 categories = ["TIL"]
 featuredalt = "TIL"
 type = "post"
