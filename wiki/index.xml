@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pavan Kemparaju</title>
+    <link>/wiki/</link>
+    <description>Recent content on Pavan Kemparaju</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo from a user&#39;s perspective - The basics</title>
+      <link>/wiki/learning-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/wiki/learning-hugo/</guid>
+      <description>I decided to use Hugo to generate this site for no particular reason. For a smaller site like mine, it really shouldn&amp;rsquo;t matter what static site generator is used, unless you have a strong preference for one language over another
+For most of the tools I use, I am content with learning just how to use it to my purpose and not much beyond that. But I thought I should really try to dig underneath the surface to appreciate the work that goes in to making something like Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>
