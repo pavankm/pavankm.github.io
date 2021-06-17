@@ -40,7 +40,7 @@ ____
 _2012_
 #### Qualcomm, Hyderabad
 
-Controbuted to the Android Linux kernel.
+Contributed to the Android Linux kernel.
 
 Kernel hacked volume daemon to create a solution for multiple external drive support on core Android platform
 
