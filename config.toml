@@ -30,13 +30,19 @@ enableRobotsTXT = true
   url = "/about/"
 
   [[menu.main]]
+  name = "Posts by Categories"
+  weight = 300
+  identifier = "categories"
+  url = "/categories/"
+
+  [[menu.main]]
   name = "Posts by Tags"
   weight = 300
   identifier = "tags"
-  url = "/categories/"
+  url = "/tags/"
 
 [params]
-title = "I'm Jane Doe"
+title = "Pavan Kemparaju"
 author = "Pavan Kemparaju"
 description = """Call me Pavan
 this is my site
