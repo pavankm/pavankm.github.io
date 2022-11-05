@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost:1313/</loc>
-    <lastmod>2022-05-08T01:36:59-07:00</lastmod>
+    <loc>https://www.musubi.sbs/blog/</loc>
+    <lastmod>2022-11-05T13:26:53-07:00</lastmod>
   </url><url>
-    <loc>localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2022-05-08T01:36:59-07:00</lastmod>
+    <loc>https://www.musubi.sbs/</loc>
+    <lastmod>2022-11-05T13:26:53-07:00</lastmod>
   </url><url>
-    <loc>localhost:1313/posts/</loc>
-    <lastmod>2022-05-08T01:36:59-07:00</lastmod>
+    <loc>https://www.musubi.sbs/blog/what-musubi-is/</loc>
+    <lastmod>2022-11-05T13:26:53-07:00</lastmod>
   </url><url>
-    <loc>localhost:1313/categories/</loc>
+    <loc>https://www.musubi.sbs/posts/my-first-post/</loc>
+    <lastmod>2022-11-04T21:11:33-07:00</lastmod>
   </url><url>
-    <loc>localhost:1313/tags/</loc>
+    <loc>https://www.musubi.sbs/posts/</loc>
+    <lastmod>2022-11-04T21:11:33-07:00</lastmod>
+  </url><url>
+    <loc>https://www.musubi.sbs/categories/</loc>
+  </url><url>
+    <loc>https://www.musubi.sbs/tags/</loc>
   </url>
 </urlset>

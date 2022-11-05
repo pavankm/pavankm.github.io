@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Musubi weave</title>
-    <link>localhost:1313/posts/</link>
-    <description>Recent content in Posts on Musubi weave</description>
+    <title>Posts on Musubi</title>
+    <link>https://www.musubi.sbs/posts/</link>
+    <description>Recent content in Posts on Musubi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 May 2022 01:36:59 -0700</lastBuildDate><atom:link href="localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2022 21:11:33 -0700</lastBuildDate><atom:link href="https://www.musubi.sbs/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 08 May 2022 01:36:59 -0700</pubDate>
+      <link>https://www.musubi.sbs/posts/my-first-post/</link>
+      <pubDate>Fri, 04 Nov 2022 21:11:33 -0700</pubDate>
       
-      <guid>localhost:1313/posts/my-first-post/</guid>
-      <description></description>
+      <guid>https://www.musubi.sbs/posts/my-first-post/</guid>
+      <description>This is my first post What we are trying to do </description>
     </item>
     
   </channel>
