@@ -16,14 +16,5 @@
       <description>This is the musubi website. Here we talk about mental health.</description>
     </item>
     
-    <item>
-      <title>My First Post</title>
-      <link>https://www.musubi.sbs/posts/my-first-post/</link>
-      <pubDate>Fri, 04 Nov 2022 21:11:33 -0700</pubDate>
-      
-      <guid>https://www.musubi.sbs/posts/my-first-post/</guid>
-      <description>This is my first post What we are trying to do </description>
-    </item>
-    
   </channel>
 </rss>

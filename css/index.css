@@ -3,52 +3,59 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
+
 @keyframes fade-bottom {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
+
 @keyframes fade-left {
-  0% {
-    transform: translateX(-10px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+    0% {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @keyframes fade-right {
-  0% {
-    transform: translateX(20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+    0% {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 /* Header animation */
 @keyframes fade-up {
-  0% {
-    transform: translateY(-10px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+    0% {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 header .navbar.animate {
@@ -62,20 +69,23 @@ header .navbar.animate {
     line-height: 1rem;
     border-radius: .5rem !important;
 }
+
 .tooltip-inner {
     line-height: 1rem;
 }
-.tooltip .tooltip-arrow { 
+
+.tooltip .tooltip-arrow {
     visibility: hidden !important;
 }
 
 /* hero */
 
 #hero {
-    min-height: 100vh;
+    min-height: 60vh;
     line-height: 2rem;
     max-width: 100%;
 }
+
 #hero .content.animate {
     animation: fade-left 1s ease-out;
 }
@@ -88,7 +98,7 @@ header .navbar.animate {
 }
 
 #hero .subtitle {
-    font-size: clamp(14px,5vw,16px);
+    font-size: clamp(14px, 5vw, 16px);
     opacity: 0.6;
 }
 
@@ -110,7 +120,7 @@ header .navbar.animate {
 }
 
 #hero .image img {
-    box-shadow:0px 8px 56px rgba(15, 80, 100, 0.16);
+    box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
     padding: 0;
     border: 0;
     border: 2px solid var(--secondary-color);
@@ -174,27 +184,104 @@ header .navbar.animate {
     opacity: 0.7;
 }
 
-#hero .hero-content > a {
+#hero .hero-content>a {
     display: inline-block;
     text-decoration: none;
     color: var(--primary-color) !important;
 }
 
-#hero .hero-content > a::after {
+#hero .hero-content>a::after {
     content: "";
     display: block;
     width: 0px;
     height: 2px;
     bottom: 0.37em;
     background-color: var(--primary-color);
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     opacity: 0.5;
 }
 
-#hero .hero-content > a:hover::after, #hero .hero-content > a:focus::after, #hero .hero-content > a:active::after {
+#hero .hero-content>a:hover::after,
+#hero .hero-content>a:focus::after,
+#hero .hero-content>a:active::after {
     width: 100%;
 }
 
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+}
+
+/* Code By Webdevtrick ( https://webdevtrick.com) */
+.shimmer {
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+
+    100% {
+        background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+
+    100% {
+        background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+
+    100% {
+        background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+
+    100% {
+        background-position: top right;
+    }
+}
 
 
 /* about me */
@@ -255,11 +342,13 @@ header .navbar.animate {
     height: 2px;
     bottom: 0.37em;
     background-color: var(--primary-color);
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     opacity: 0.5;
 }
 
-#about a:hover::after, #about a:focus::after, #about a:active::after {
+#about a:hover::after,
+#about a:focus::after,
+#about a:active::after {
     width: 100%;
 }
 
@@ -273,7 +362,7 @@ header .navbar.animate {
     background-color: transparent !important;
 }
 
-#experience .tab-pane > * {
+#experience .tab-pane>* {
     opacity: 0.9;
 }
 
@@ -286,7 +375,7 @@ header .navbar.animate {
     padding-bottom: 1%;
 }
 
-#experience .experience-container .tab-content > .tab-pane p {
+#experience .experience-container .tab-content>.tab-pane p {
     padding: 1% 0;
     margin: 0;
 }
@@ -299,7 +388,7 @@ header .navbar.animate {
 
 #experience .nav-item .nav-link {
     color: var(--text-color) !important;
-    border-bottom: 2px solid transparent; 
+    border-bottom: 2px solid transparent;
     border-radius: 0%;
     transition: none;
     cursor: pointer;
@@ -307,11 +396,11 @@ header .navbar.animate {
 
 #experience .nav-item .nav-link.active {
     color: var(--text-color) !important;
-    border-bottom: 2px solid var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color);
     opacity: 0.8;
 }
 
-#experience .nav-item .nav-link.active:hover { 
+#experience .nav-item .nav-link.active:hover {
     transition: none !important;
 }
 
@@ -334,11 +423,13 @@ header .navbar.animate {
     height: 2px;
     bottom: 0.37em;
     background-color: var(--primary-color);
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     opacity: 0.5;
 }
 
-#experience a:hover::after, #experience a:focus::after, #experience a:active::after {
+#experience a:hover::after,
+#experience a:focus::after,
+#experience a:active::after {
     width: 100%;
 }
 
@@ -388,7 +479,7 @@ header .navbar.animate {
 
 /* Education */
 
-#education .container > h3 {
+#education .container>h3 {
     color: var(--text-secondary-color) !important;
 }
 
@@ -412,7 +503,7 @@ header .navbar.animate {
     border-radius: 1.5rem;
     box-shadow: 0px 8px 56px rgb(15 80 100 / 16%);
     border: 2px solid var(--text-secondary-color) !important;
-    transition: box-shadow .2s linear,opacity .2s linear;
+    transition: box-shadow .2s linear, opacity .2s linear;
     transition: transform 0.2s;
 }
 
@@ -439,24 +530,26 @@ header .navbar.animate {
     opacity: 0.9;
 }
 
-#education .card .card-body > a h6 {
+#education .card .card-body>a h6 {
     display: inline-block;
     text-decoration: none;
     color: var(--primary-color) !important;
 }
 
-#education .card .card-body > a h6::after {
+#education .card .card-body>a h6::after {
     content: "";
     display: block;
     width: 0px;
     height: 2px;
     bottom: 0.37em;
     background-color: var(--primary-color);
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     opacity: 0.5;
 }
 
-#education .card .card-body > a h6:hover::after, #education .card .card-body > a h6:focus::after, #education .card .card-body > a h6:active::after {
+#education .card .card-body>a h6:hover::after,
+#education .card .card-body>a h6:focus::after,
+#education .card .card-body>a h6:active::after {
     width: 100%;
 }
 
@@ -475,42 +568,43 @@ header .navbar.animate {
 
 /* achievements */
 
-#achievements a {
+#services a {
     text-decoration: none;
 }
 
-#achievements h3 {
+#services h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#achievements .card {
+#services .card {
     background-color: var(--secondary-color) !important;
     border-radius: 1rem;
-    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
     /* transform: translate3d(0, 0, 0); */
-    transition: box-shadow .2s linear,opacity .2s linear;
+    transition: box-shadow .2s linear, opacity .2s linear;
     border: 2px solid transparent;
 }
 
-#achievements a.card {
+#services a.card {
     cursor: alias;
 }
 
-#achievements .card h5 {
+#services .card h5 {
     color: var(--text-color) !important;
     opacity: 0.9;
 }
 
-#achievements .card:hover {
-    border: 2px solid var(--text-color);
-    transition: .3s;
-}
-#achievements .card:focus {
+#services .card:hover {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
 
-#achievements .card-text {
+#services .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#services .card-text {
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
 }
