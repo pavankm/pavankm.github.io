@@ -26,7 +26,6 @@ div.sticky {
 }
 .navbar div:first-child {
     display: block;
-    text-transform: lowercase;
 }
 
 .navbar-toggler {

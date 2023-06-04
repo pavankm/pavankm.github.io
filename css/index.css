@@ -78,6 +78,12 @@ header .navbar.animate {
     visibility: hidden !important;
 }
 
+/* menu */
+
+#navbarContent .nav-item {
+    font-family: Quicksand, sans-serif;
+}
+
 /* hero */
 
 #hero {
@@ -85,6 +91,8 @@ header .navbar.animate {
     line-height: 2rem;
     max-width: 100%;
 }
+
+
 
 #hero .content.animate {
     animation: fade-left 1s ease-out;
@@ -97,8 +105,9 @@ header .navbar.animate {
     left: -150px;
 }
 
-#hero .subtitle {
-    font-size: clamp(14px, 5vw, 16px);
+#hero .intro {
+    font-family: Antonio, sans-serif;
+    font-size: clamp(18px, 6vw, 18px);
     opacity: 0.6;
 }
 
@@ -161,6 +170,7 @@ header .navbar.animate {
 }
 
 #hero a.btn {
+    font-family: Quicksand, sans-serif;
     margin-top: 50px;
     padding: 0.7rem 1.75rem;
     border: 1px solid var(--primary-color);
@@ -174,7 +184,7 @@ header .navbar.animate {
 }
 
 #hero a.btn:hover {
-    background-color: var(--secondary-color) !important;
+    background-color: rgba(204, 102, 0, 0.17) !important;
     color: var(--text-color) !important;
     opacity: 0.9;
 }
@@ -182,6 +192,10 @@ header .navbar.animate {
 #hero a.btn.social-icon:hover {
     background-color: var(--background-color) !important;
     opacity: 0.7;
+}
+
+#hero .hero-content {
+    font-family: Quicksand, sans-serif;
 }
 
 #hero .hero-content>a {
@@ -207,22 +221,52 @@ header .navbar.animate {
     width: 100%;
 }
 
+#hero .quote {
+    float: right;
+    width: 100%;
+}
+
+#hero .hero-quote {
+    font-family: Quicksand, sans-serif;
+    text-align: right;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(204, 102, 0) /*Rust*/
+}
+
+#hero .hero-quote-author {
+    font-family: Quicksand, sans-serif;
+    text-align: right;
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(204, 102, 0)
+}
+
 .content {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Quicksand, Helvetica, sans-serif;
 }
 
 .section-header {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: lowercase;
+    font-family: Antonio, Helvetica, sans-serif;
+    color: rgb(204, 102, 0);
 }
+
+.img-thumbnail {
+    background-color: transparent;
+}
+
 
 /* Code By Webdevtrick ( https://webdevtrick.com) */
 .shimmer {
     color: rgba(255, 255, 255, 0.1);
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+    /* Standard syntax (must be last) */
     -webkit-background-size: 125px 100%;
     -moz-background-size: 125px 100%;
     background-size: 125px 100%;
@@ -285,9 +329,9 @@ header .navbar.animate {
 
 
 /* about me */
-#about h3 {
+/* #about h3 {
     color: var(--text-secondary-color) !important;
-}
+} */
 
 #about .image img {
     box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
@@ -387,6 +431,7 @@ header .navbar.animate {
 }
 
 #experience .nav-item .nav-link {
+
     color: var(--text-color) !important;
     border-bottom: 2px solid transparent;
     border-radius: 0%;
@@ -568,13 +613,21 @@ header .navbar.animate {
 
 /* achievements */
 
+#services .card-title {
+    font-family: Antonio, sans-serif;
+}
+
+#services .subtitle {
+    font-family: Quicksand, sans-serif;
+}
+
 #services a {
     text-decoration: none;
 }
 
-#services h3 {
+/* #services h3 {
     color: var(--text-secondary-color) !important;
-}
+} */
 
 #services .card {
     background-color: var(--secondary-color) !important;
@@ -611,9 +664,13 @@ header .navbar.animate {
 
 /* contact */
 
-#contact h3 {
-    color: var(--text-secondary-color) !important;
+#contact .subtitle {
+    font-family: Quicksand, sans-serif;
 }
+
+/* #contact h3 {
+    color: var(--text-secondary-color) !important;
+} */
 
 #contact .btn {
     transition: none;

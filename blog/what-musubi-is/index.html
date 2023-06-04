@@ -4,23 +4,12 @@
 <head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="icon" href=musubi%20256.png type="image/gif">
+<link rel="icon" href=logo.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
->
-<link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      media="print" onload="this.media='all'" />
-<noscript>
-  <link
-          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet">
-</noscript>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="/css/font.css" media="all">
@@ -108,8 +97,8 @@ What Musubi Is | Musubi
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="musubi%20256.png" width="30" height="30"
-                    class="d-inline-block align-top">
+                <img src="https://www.musubi.sbs\logo.png"
+                    width="30" height="30" class="d-inline-block align-top">
                 Musubi weave
                 
             </a>
@@ -117,14 +106,21 @@ What Musubi Is | Musubi
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
-                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24"
+                    data-view-component="true">
+                    <path fill-rule="evenodd"
+                        d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z">
+                    </path>
                 </svg>
             </button>
 
             
             <div class="collapse navbar-collapse text-wrap primary-font sticky" id="navbarContent">
-                <ul class="navbar-nav ms-auto text-center">
+                <ul class="navbar-nav  ms-auto text-center">
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/" aria-label="Home">Home</a>
+                    </li>
+
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#about" aria-label="about">About</a>
@@ -134,39 +130,34 @@ What Musubi Is | Musubi
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#education"
-                            aria-label="education">Education</a>
-                    </li>
-                    
 
                     
 
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#services"
-                            aria-label="services offered">services</a>
+                            aria-label="services offered">Services</a>
                     </li>
                     
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#contact"
-                            aria-label="contact">Contact</a>
+                        <a class="nav-link" href="/#contact" aria-label="contact">Contact</a>
                     </li>
                     
 
                     
                     
-                    
-                    
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"
+                        async></script>
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/posts" title="Blog posts">
-                            
-                            Blog
-                        </a>
+                        <a href="" class="nav-link" aria-label="book an appointment"
+                            onclick="Calendly.initPopupWidget({url: 'https:\/\/calendly.com\/ranjanis\/session'});return false;">Book a therapy session</a>
                     </li>
                     
+                    
+
                     
                 </ul>
 
@@ -174,10 +165,14 @@ What Musubi Is | Musubi
                 
                 <div class="text-center">
                     <button id="theme-toggle">
-                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
                             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                         </svg>
-                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
                             <circle cx="12" cy="12" r="5"></circle>
                             <line x1="12" y1="1" x2="12" y2="3"></line>
                             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -190,13 +185,12 @@ What Musubi Is | Musubi
                         </svg>
                     </button>
                 </div>
-            
+
                 
             </div>
         </div>
     </nav>
-</header>
-<div id="content">
+</header><div id="content">
 <section id="single">
   <div class="container">
     <div class="row justify-content-center">
@@ -291,20 +285,9 @@ What Musubi Is | Musubi
 
   </div><footer>
     
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script
-        type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/pavankm/conversation', text: 'Book a therapy session', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
     
-
-    <div class="container py-3" id="recent-posts">
     
-    <div class="h3 text-center text-secondary py-3">Recent posts</div>
-    <div class="row justify-content-center">
-        
-    </div>
-    
-</div><div class="text-center pt-2">
+    <div class="text-center pt-2">
     
 
     
@@ -369,7 +352,7 @@ What Musubi Is | Musubi
         <div class="col-md-4 text-center">
             <div class="pb-2">
                 <a href="https://www.musubi.sbs" title="Musubi">
-                    <img alt="Footer logo" src="musubi%20256.png"
+                    <img alt="Footer logo" src="logo.png"
                         height="40px" width="40px">
                 </a>
             </div>
