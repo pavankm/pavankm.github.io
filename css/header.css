@@ -46,8 +46,10 @@ div.sticky {
     box-shadow: 0 0 0 .05em;
 }
 .navbar-text {
-    font-size: 16px !important;
+    font-size: 18px !important;
     opacity: 0.95;
+    font-weight: 700;
+    
 }
 header .nav-link{
     transition: none !important;
@@ -58,7 +60,11 @@ header .nav-link{
     position: fixed;
     z-index: 999;
     padding-top: 2%;
+    width: 100%;
+    background-color: var(--background-color) !important;
+    margin-bottom: 20px;
 } 
+
 .navbar .nav-link:hover {
     color: var(--primary-color) !important;
     transform: scale(1.1);

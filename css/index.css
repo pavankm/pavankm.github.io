@@ -58,10 +58,13 @@
     }
 }
 
+body {
+    font-size: 1.4rem;
+}
+
 header .navbar.animate {
     animation: fade-up 0.5s ease-in;
 }
-
 
 /* ToolTip */
 
@@ -92,6 +95,17 @@ header .navbar.animate {
     max-width: 100%;
 }
 
+#hero #heroSubtitle {
+    font-size: 39px;
+}
+
+#hero #heroTitle {
+    font-size: 72px;
+}
+
+#hero .row {
+    margin-top: 5%;
+}
 
 
 #hero .content.animate {
@@ -107,7 +121,7 @@ header .navbar.animate {
 
 #hero .intro {
     font-family: Antonio, sans-serif;
-    font-size: clamp(18px, 6vw, 18px);
+    font-size: 24px;
     opacity: 0.6;
 }
 
@@ -134,21 +148,12 @@ header .navbar.animate {
     border: 0;
     /* border: 2px solid var(--secondary-color); */
     border-radius: 1rem;
+    transform: scale(3);
 }
 
 #hero .image.animate img {
     animation: fade-in 1s ease-out;
     transition: box-shadow 0.3s;
-}
-
-#hero .image img:hover {
-    cursor: pointer;
-}
-
-#hero .image.animate img:hover {
-    box-shadow: 0 0 11px rgb(15 80 100 / 20%);
-    filter: contrast(1.2);
-    cursor: pointer;
 }
 
 #hero a.btn.social-icon {
@@ -173,6 +178,7 @@ header .navbar.animate {
     font-family: Quicksand, sans-serif;
     margin-top: 50px;
     padding: 0.7rem 1.75rem;
+    font-size: x-large;
     border: 1px solid var(--primary-color);
     color: var(--text-color) !important;
     border-radius: .75rem;
@@ -339,6 +345,7 @@ header .navbar.animate {
 #about .header2 {
     float: left;
     display: block;
+    margin-top: 4%;
 }
 
 #about .row {
@@ -352,6 +359,14 @@ header .navbar.animate {
     transition: box-shadow 0.3s;
     padding: 0;
     border: 0;
+}
+
+#about .image1 {
+    transform: scale(1.1);
+}
+
+#about .image2 {
+    transform: scale(1.4);
 }
 
 /* #about .image img:hover {
@@ -385,6 +400,15 @@ header .navbar.animate {
     font-weight: 500;
     opacity: 0.9 !important;
     line-height: 1.7rem !important;
+}
+
+#about .content1 {
+    float: right;
+    text-align: right;
+}
+
+#about .content1 {
+    float: left;
 }
 
 #about a {
@@ -646,9 +670,9 @@ header .navbar.animate {
 } */
 
 #services .card {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color) !important;
     border-radius: 1rem;
-    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px var(--primary-color);
     /* transform: translate3d(0, 0, 0); */
     transition: box-shadow .2s linear, opacity .2s linear;
     border: 2px solid transparent;
