@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.musubi.sbs/blog/</loc>
-    <lastmod>2022-11-05T13:26:53-07:00</lastmod>
-  </url><url>
     <loc>https://www.musubi.sbs/</loc>
-    <lastmod>2022-11-05T13:26:53-07:00</lastmod>
+    <lastmod>2023-06-14T20:24:03-07:00</lastmod>
   </url><url>
-    <loc>https://www.musubi.sbs/blog/what-musubi-is/</loc>
-    <lastmod>2022-11-05T13:26:53-07:00</lastmod>
+    <loc>https://www.musubi.sbs/posts/</loc>
+    <lastmod>2023-06-14T20:24:03-07:00</lastmod>
+  </url><url>
+    <loc>https://www.musubi.sbs/posts/pride_bingo/</loc>
+    <lastmod>2023-06-14T20:24:03-07:00</lastmod>
   </url><url>
     <loc>https://www.musubi.sbs/categories/</loc>
   </url><url>
