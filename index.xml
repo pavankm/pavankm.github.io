@@ -16,14 +16,5 @@
       <description>This is the musubi website. Here we talk about mental health.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://www.musubi.sbs/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.musubi.sbs/services/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

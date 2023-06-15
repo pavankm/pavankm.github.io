@@ -51,16 +51,18 @@ div.sticky {
     font-weight: 700;
     
 }
+
 header .nav-link{
     transition: none !important;
 }
+
 .navbar-brand {
     color: var(--primary-color) !important;
     opacity: 0.95;
     position: fixed;
     z-index: 999;
     padding-top: 2%;
-    width: 100%;
+    width: 50%;
     background-color: var(--background-color) !important;
     margin-bottom: 20px;
 } 

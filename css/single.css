@@ -1,12 +1,27 @@
 #single {
     padding: 60px 0;
     line-height: 1.7em;
+    font-family: Quicksand, sans-serif;
     font-size: 17px;
+}
+
+
+#single .page-content h1,
+#single .page-content h2,
+#single .page-content h3,
+#single .page-content h4,
+#single .page-content h5,
+#single .page-content h6 {
+    color: var(--primary-color) !important;
+    margin-bottom: 0.7em;
+    opacity: 0.9;
+    font-family: Antonio, sans-serif;
 }
 
 #single .title > h1 {
     opacity: 0.8;
     color: var(--text-color) !important;
+    font-family: Antonio, sans-serif;
 }
 
 #single .title small {
