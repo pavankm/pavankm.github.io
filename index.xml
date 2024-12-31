@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Musubi</title>
-    <link>https://www.musubi.sbs/</link>
-    <description>Recent content on Musubi</description>
+    <title>Musubi weave</title>
+    <link>localhost:1313/</link>
+    <description>Recent content on Musubi weave</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2023 20:24:03 -0700</lastBuildDate><atom:link href="https://www.musubi.sbs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2022 01:36:59 -0700</lastBuildDate><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pride Month Bingo</title>
-      <link>https://www.musubi.sbs/posts/pride_bingo/</link>
-      <pubDate>Wed, 14 Jun 2023 20:24:03 -0700</pubDate>
+      <title>My First Post</title>
+      <link>localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 08 May 2022 01:36:59 -0700</pubDate>
       
-      <guid>https://www.musubi.sbs/posts/pride_bingo/</guid>
-      <description>Coming Soon! Keep an eye on our instagram for more!</description>
+      <guid>localhost:1313/posts/my-first-post/</guid>
+      <description></description>
     </item>
     
   </channel>
