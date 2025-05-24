@@ -1,6 +1,0 @@
-[submodule "hugoplate"]
-	path = hugoplate
-	url = https://github.com/zeon-studio/hugoplate.git
-[submodule "themes/hugo-liftoff"]
-	path = themes/hugo-liftoff
-	url = https://github.com/wjh18/hugo-liftoff.git
