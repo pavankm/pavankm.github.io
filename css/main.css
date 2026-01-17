@@ -51,12 +51,14 @@ body.dark-mode {
 }
 
 body {
-  font-family: "Libre Baskerville", "Baskerville", Georgia, "Times New Roman",
-    serif;
+  font-family:
+    "Libre Baskerville", "Baskerville", Georgia, "Times New Roman", serif;
   line-height: 1.8;
   color: var(--text-primary);
   background: var(--bg-primary);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .container {
@@ -377,6 +379,12 @@ nav a.active {
 
 .read-more:hover {
   border-bottom: 2px solid var(--border-strong);
+}
+
+/* Post Content - Preserve Whitespace */
+.post-content,
+.about-content {
+  white-space: pre-wrap;
 }
 
 /* Footer */
