@@ -7,20 +7,25 @@
     const body = document.body;
     const currentTheme = localStorage.getItem("theme");
     if (currentTheme === "dark-mode") {
+      body.classList.remove("book-sepia");
       body.classList.add("dark-mode");
       toggleButton.textContent = "\u2600\uFE0F";
     } else if (!currentTheme && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      body.classList.remove("book-sepia");
       body.classList.add("dark-mode");
       toggleButton.textContent = "\u2600\uFE0F";
     }
     toggleButton.addEventListener("click", () => {
-      body.classList.toggle("dark-mode");
       if (body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark-mode");
-        toggleButton.textContent = "\u2600\uFE0F";
-      } else {
+        body.classList.remove("dark-mode");
+        body.classList.add("book-sepia");
         localStorage.setItem("theme", "light-mode");
         toggleButton.textContent = "\u{1F319}";
+      } else {
+        body.classList.remove("book-sepia");
+        body.classList.add("dark-mode");
+        localStorage.setItem("theme", "dark-mode");
+        toggleButton.textContent = "\u2600\uFE0F";
       }
     });
   });

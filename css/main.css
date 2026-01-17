@@ -44,6 +44,98 @@ body.dark-mode {
   --shadow: rgba(0, 0, 0, 0.5);
 }
 
+/* Old Book Theme - Aged Paper */
+body.book-sepia {
+  --bg-primary: #f4e8d0;
+  --bg-container: #faf6ed;
+  --bg-white: #fefbf3;
+  --bg-card: #f9f4e8;
+  --bg-gradient-start: #fefbf3;
+  --bg-gradient-end: #f4e8d0;
+
+  --text-primary: #2b1810;
+  --text-secondary: #3d2415;
+  --text-tertiary: #5a402d;
+  --text-quaternary: #78583f;
+  --text-body: #3a2617;
+
+  --border-strong: #5a402d;
+  --border-medium: #c4a97b;
+  --border-light: #d9c9a8;
+
+  --accent: #8b6834;
+  --shadow: rgba(43, 24, 16, 0.15);
+}
+
+/* Old Book Theme - Vintage Parchment */
+body.book-parchment {
+  --bg-primary: #ebe3d5;
+  --bg-container: #f5efe4;
+  --bg-white: #faf7f0;
+  --bg-card: #f2ece1;
+  --bg-gradient-start: #faf7f0;
+  --bg-gradient-end: #ebe3d5;
+
+  --text-primary: #1a1410;
+  --text-secondary: #2d251e;
+  --text-tertiary: #4d453a;
+  --text-quaternary: #6b5e4f;
+  --text-body: #2a221a;
+
+  --border-strong: #4d453a;
+  --border-medium: #b8a88d;
+  --border-light: #cfc5b0;
+
+  --accent: #9d7c4f;
+  --shadow: rgba(26, 20, 16, 0.12);
+}
+
+/* Old Book Theme - Antique Leather */
+body.book-leather {
+  --bg-primary: #d4c4b0;
+  --bg-container: #e5daca;
+  --bg-white: #f0ebe0;
+  --bg-card: #e8e0d2;
+  --bg-gradient-start: #f0ebe0;
+  --bg-gradient-end: #d4c4b0;
+
+  --text-primary: #2c1810;
+  --text-secondary: #3f2618;
+  --text-tertiary: #5d3f2a;
+  --text-quaternary: #7a5940;
+  --text-body: #3b2415;
+
+  --border-strong: #5d3f2a;
+  --border-medium: #a89478;
+  --border-light: #c4b39a;
+
+  --accent: #8f5b2f;
+  --shadow: rgba(44, 24, 16, 0.18);
+}
+
+/* Old Book Theme - Yellowed Pages */
+body.book-yellowed {
+  --bg-primary: #f9f3e3;
+  --bg-container: #fffbf0;
+  --bg-white: #fffef8;
+  --bg-card: #fcf7eb;
+  --bg-gradient-start: #fffef8;
+  --bg-gradient-end: #f9f3e3;
+
+  --text-primary: #1c1508;
+  --text-secondary: #2f2410;
+  --text-tertiary: #4a3820;
+  --text-quaternary: #695131;
+  --text-body: #28190c;
+
+  --border-strong: #4a3820;
+  --border-medium: #d4c5a1;
+  --border-light: #e3d8ba;
+
+  --accent: #a67c3a;
+  --shadow: rgba(28, 21, 8, 0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -158,7 +250,7 @@ nav a.active {
   text-align: center;
   padding: 2rem 1rem; /* Added horizontal padding to prevent text hitting edges of background */
   border-bottom: 3px double var(--border-strong);
-  margin-bottom: 2.5rem;
+  margin: -2rem -1.5rem 2.5rem -1.5rem; /* Negative margins to extend to container edges */
   background: linear-gradient(
     135deg,
     var(--bg-gradient-start) 0%,
@@ -214,11 +306,41 @@ nav a.active {
   hyphens: auto;
 }
 
-.about-content p {
+.post-content {
+  text-align: justify;
+  hyphens: auto;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.post header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post header h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  justify-content: center;
+  color: var(--text-tertiary);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.about-content p,
+.post-content p {
   margin-bottom: 1rem;
 }
 
-.about-content p:first-of-type::first-letter {
+.about-content p:first-of-type::first-letter,
+.post-content > p:first-of-type:not(.article-blockquote ~ p)::first-letter,
+.post-content .article-blockquote ~ p:first-of-type::first-letter {
   font-size: 4rem;
   font-weight: 900;
   line-height: 0.85;
@@ -308,6 +430,7 @@ nav a.active {
 
 .article-preview {
   margin-bottom: 2.5rem;
+  padding: 1.5rem;
   padding-bottom: 2rem;
   border-bottom: 2px solid var(--border-light);
 }
@@ -554,9 +677,101 @@ nav a.active {
   margin: 0 0.5rem;
 }
 
+/* Image positioning in articles */
+.post-content figure {
+  margin: 1.5rem 0;
+}
+
+.post-content figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border-light);
+  box-shadow: 2px 2px 4px var(--shadow);
+}
+
+.post-content figcaption {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-tertiary);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.post-content .img-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.post-content .img-left {
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+  max-width: 45%;
+}
+
+.post-content .img-right {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 45%;
+}
+
+/* Block Quote Styling */
+.post-content .article-blockquote {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+  position: relative;
+  background: transparent;
+}
+
+.post-content .article-blockquote::before {
+  content: '"';
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  position: absolute;
+  left: -0.5rem;
+  top: -0.5rem;
+  color: var(--text-tertiary);
+  opacity: 0.5;
+}
+
+.post-content .article-blockquote p {
+  margin-bottom: 0.25rem;
+}
+
+.post-content .article-blockquote footer {
+  font-style: normal;
+  color: var(--text-tertiary);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+/* Clear floats after image sections */
+.post-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Responsive adjustments for columns */
 @media (max-width: 768px) {
   .feature-title {
     font-size: 2.5rem;
+  }
+
+  .post-content .img-left,
+  .post-content .img-right {
+    float: none;
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  .post-content .img-center {
+    max-width: 100%;
   }
 }
