@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Make a word cloud privately in your browser. Edit stop words, drag words into place, and download SVG or PNG.">
+    <title>Word Cloud | Pavan's Website</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./word-cloud.css">
+    <script defer src="./vendor/d3.layout.cloud-1.2.7.js" integrity="sha256-kZ5oXI2lAk9ur44ffeRVsY35EMBgXAQezEzo+K9DQdo="></script>
+    <script type="module" src="./word-cloud.mjs"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <a class="site-title" href="/">Pavan's Website</a>
+        <nav aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/articles/">Articles</a>
+          <a href="/about/">About</a>
+          <button id="theme-toggle" type="button" aria-label="Switch color theme">Switch theme</button>
+        </nav>
+      </header>
+      <main>
+        <header class="intro">
+          <p class="eyebrow">A little browser workshop</p>
+          <h1>Word Cloud</h1>
+          <p>Turn your text into a picture. Drag the words to make it yours.</p>
+          <p class="privacy">Your text stays in this tab. Nothing is uploaded or saved.</p>
+        </header>
+        <div class="workspace">
+          <form id="cloud-form" class="editor">
+            <label for="content">Your content</label>
+            <p id="content-help" class="hint">Paste up to 200,000 characters. Word size reflects frequency; capitalization is ignored.</p>
+            <textarea id="content" name="content" rows="12" maxlength="200000" aria-describedby="content-help" placeholder="Paste a speech, a story, meeting notes, or anything with words..." spellcheck="false"></textarea>
+            <button id="sample" class="subtle" type="button">Try sample text</button>
+            <div class="label-row">
+              <label for="stop-words">Stop words</label>
+              <button id="reset-stop-words" class="subtle" type="button">Reset defaults</button>
+            </div>
+            <p id="stop-help" class="hint">Words to leave out, separated by spaces, commas, or newlines. Clear this box to include everything.</p>
+            <textarea id="stop-words" name="stop-words" rows="6" aria-describedby="stop-help" spellcheck="false">a an and are as at be been being but by can could did do does doing for from had has have he her here hers herself him himself his how i if in into is it its itself just me more most my myself no nor not of on once only or other our ours ourselves out over own same she should so some such than that the their theirs them themselves then there these they this those through to too under until up very was we were what when where which while who whom why will with would you your yours yourself yourselves</textarea>
+            <button class="primary" type="submit">Generate cloud</button>
+            <p class="hint">Each generation starts fresh. Up to 120 words are placed; words that cannot fit are reported.</p>
+          </form>
+          <section class="preview-panel" aria-labelledby="preview-title">
+            <div class="preview-heading">
+              <h2 id="preview-title">Your cloud</h2>
+              <div class="downloads">
+                <button id="download-svg" type="button" disabled>Save SVG</button>
+                <button id="download-png" type="button" disabled>Save PNG</button>
+              </div>
+            </div>
+            <p id="status" role="status" aria-live="polite">Add some text, or try the sample, to get started.</p>
+            <p id="error" role="alert" hidden></p>
+            <div id="preview" aria-busy="false">
+              <svg id="cloud" xmlns="http://www.w3.org/2000/svg" viewBox="-512 -320 1024 640" width="1024" height="640" role="group" aria-labelledby="cloud-title cloud-description">
+                <title id="cloud-title">Word cloud preview</title>
+                <desc id="cloud-description">Drag a word to move it, or focus it and use arrow keys. Hold Shift for larger steps. Manual moves may overlap; generating again resets all positions.</desc>
+                <rect x="-512" y="-320" width="1024" height="640" fill="#fffdf8"></rect>
+                <g id="words"></g>
+              </svg>
+              <p id="empty-preview">Your words will take shape here.</p>
+            </div>
+            <p class="hint">Drag to rearrange. With a word focused, use arrow keys; Shift moves farther. Resizing preserves your layout.</p>
+          </section>
+        </div>
+      </main>
+      <footer>Made with <a href="https://github.com/jasondavies/d3-cloud">d3-cloud</a>, hosted locally. No external fonts, scripts, or services.</footer>
+    </div>
+  </body>
+</html>
